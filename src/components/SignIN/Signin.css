@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+#section  {
+  /* background-image: url(https://cdn.pixabay.com/photo/2018/06/27/23/18/high-hat-3502857_960_720.jpg); */
+  /* background-image: url(https://img2.wallspic.com/previews/0/6/4/4/24460/24460-aircraft-airline-transport-air_travel-wide_body_aircraft-x750.jpg); */
+  background-image: url(https://cdn.pixabay.com/photo/2020/09/29/02/39/aircraft-5611528_1280.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: 100% 120%;
+  padding: 8px 0px 0px 0px;
+  border-top: 2px solid black;
+}
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+/* .center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+} */
+
+.container{
+padding: 70px 50px 0px 50px  ;
+height: 100vh;
+border-radius: 20px;
+width: 100%;
+font-family: 'Times New Roman', Times, serif;
+letter-spacing: 1px;
+}
+.Toprow{
+  background-color: #ffffff;
+}
+.Icons .icons{
+  margin: 3px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    font-size: x-large;
+    scale: 1;
+    transition: all 0.3s;
+}
+.icons:hover{
+    transition: all 0.3s;
+    scale: 1.05;
+}
+.Icons a{
+  text-decoration: none;
+  color: inherit;
+}
+.col1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.13);
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-right: none;
+    border-radius: 30px;
+    
+}
+.col2{
+    border-radius: 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.13);
+    align-items: center;
+    padding: 20px;
+}
+.search-button {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    clip-path: polygon(20% 50%, 10% 0%, 90% 0%, 80% 50%, 90% 100%, 10% 100%);
+    text-align: center;
+    transition: background-color 0.3s ease;
+    transition: all 0.4s;
+    scale: 0.95;
+  }
+  
+  .search-button:hover {
+    scale: 1;
+    filter: drop-shadow(-4px 5px 6px black);
+    transition: all 0.4s;
+    background-color: #1ca7a7; 
+  }
+ 
+::placeholder {
+    color: black; 
+    opacity: 1; 
+    font-weight: bolder;
+  }
+
+  ::-webkit-input-placeholder {
+    color: black;
+    font-weight: bolder;
+  }
+  
+  :-moz-placeholder {
+    color: black;
+    font-weight: bolder;
+  }
+
+  :-ms-input-placeholder {
+    color: black;
+    font-weight: bolder;
+  }
+  .myInput {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px  solid white;
+    background-color: rgba(255, 228, 196, 0);
+    transition: all 0.4s;
+  }
+  .myInput:hover{
+    scale: 1.05;
+    transition: all 0.4s;
+    box-shadow: -3px 4px 5px black;
+    background-color: rgba(255, 228, 196, 0.432);
+  }
+  
+ .myInput:focus {
+    outline: none;
+  }
+  
+  #Hide {
+    position: absolute;
+    top: -8px;
+    /* left: 10px; */
+    background-color: rgb(255, 255, 255);
+    padding: 0 5px;
+    font-size: 14px;
+    color: #000000;
+    transition: 0.3s ease;
+  }
+  
+  input:focus + #Hide,
+  input:not(:placeholder-shown) + #Hide {
+    top: -10px;
+    font-size: 12px;
+    color: #333;
+  }
+ .row h1 ,h4{
+    color: black;
+  }

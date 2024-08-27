@@ -1,0 +1,24 @@
+.Testi{
+    padding: 40px;
+    flex:1;
+    border: 2px solid  black;
+    border-left: none;
+    border-right: none;
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/23/18/30/drop-3698073_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  
+ .test{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .test1{
+    display: flex;
+     justify-content: space-around;
+      flex-wrap:  wrap;
+  }
+  

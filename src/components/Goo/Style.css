@@ -1,0 +1,40 @@
+.book-vacation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff; 
+    padding: 40px;
+    height: 209px;
+    gap: 60px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.book-vacation-text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #000000; 
+    letter-spacing: 5px;
+}
+
+.book-vacation-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-vacation-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid #000000; 
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.book-vacation-button:hover {
+    background-color: #ffffff; 
+    color: blue;
+}

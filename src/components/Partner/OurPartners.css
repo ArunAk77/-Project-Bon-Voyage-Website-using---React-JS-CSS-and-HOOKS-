@@ -1,0 +1,14 @@
+#partners-container{
+ padding: 30px;
+ font-size: x-large;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ letter-spacing: 2px;
+ font-style:italic;
+font-weight: bold;
+}
+.partners-container h1{
+    color: #007bff;
+    letter-spacing: 2px;
+    font-style:italic;
+   font-weight: bold;
+}

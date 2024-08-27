@@ -1,0 +1,32 @@
+#section-about{
+    background-image: url(https://cdn.pixabay.com/photo/2023/04/24/03/22/butterfly-7947062_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-about{
+    background-color: rgba(255, 255, 255, 0.450);
+    text-align: center;
+    padding: 50px 65px;
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    height: 70vh;
+    font-weight: bolder;
+}
+.book-vacation-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid #000000; 
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.book-vacation-button:hover {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 255);
+}

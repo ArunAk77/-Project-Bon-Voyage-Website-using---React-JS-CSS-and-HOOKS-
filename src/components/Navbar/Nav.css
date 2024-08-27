@@ -1,0 +1,415 @@
+@media (min-width:278px) and (max-width:2000px){
+.nav-container {
+    width: 100%;
+    height: 135vh; 
+    background-image: url(https://img1.wallspic.com/crops/5/9/8/1/7/171895/171895-landscape-cloud-plant-mountain-natural_landscape-7680x4320.jpg);
+    background-size: cover; 
+    z-index: 1;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nav-content {
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 18px;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.6s;
+}
+.nav-content:hover{
+    transition: all 0.6s;
+    background-color: black;
+}
+.nav-content::placeholder {
+    color: white; 
+    opacity: 1; 
+    font-weight:lighter ;
+  }
+
+  .nav-content  ::-webkit-input-placeholder {
+    color: white;
+    font-weight:lighter ;
+  }
+  
+  .nav-content :-moz-placeholder {
+    color: white;
+    font-weight:lighter ;
+  }
+
+  .nav-content  :-ms-input-placeholder {
+    color: white;
+    font-weight:lighter ;
+  }
+
+.logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Box {
+    position: relative;
+    width: 40%;
+    border: 10px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    transition: all 0.4s; 
+    animation: fadeInDown 2s ease-in-out;
+    scale: 0.96;
+}
+
+.Box:hover {
+    scale: 1;
+    transition: all 0.4s;
+}
+
+.Tit {
+    font-size: 50px;
+    margin: 0;
+    color: white;
+    padding: 20px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.logo p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+.social-icons .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icons .icon:hover {
+    transform: scale(1.2);
+}
+.social-icons a{
+    text-decoration: none;
+    color: inherit;
+}
+.SocialM{
+    background-color:white;
+    height: fit-content;
+    padding: 10px;
+    position: fixed;
+    margin-top: 100px;
+    z-index: 1000;
+}
+.SocialM .icons{
+    display: table-cell;
+    margin:10px ;
+    font-size: 25px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.SocialM .icons:hover{
+    transform: scale(1.2);
+}
+.SocialM a{
+    color: inherit;
+    text-decoration: none;
+}
+.nav-links{
+    margin-right: 20px;
+}
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif ;
+    color:white;
+    font-size: 18px;
+    transition: all color 0.5s ease;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.search-icon {
+    font-size: 24px;
+}
+
+
+.search-button {
+    background-color: #22c3c3; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    clip-path: polygon(20% 50%, 10% 0%, 90% 0%, 80% 50%, 90% 100%, 10% 100%);
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #1ca7a7; 
+  }
+  
+.search-box button {
+    background-color: #00b386;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #008060;
+    transition: all 0.4s;
+}
+
+.search-box p {
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    padding: 9px;
+    border-radius: 10px;
+}
+
+/* .Butto::before    {
+    content:"";
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 1px hsl(0 0% 100%/0.15) inset;
+    background: hsl (0 0% 10%);
+}
+.Butto::after{
+    content:"";
+    position: absolute;
+    inset: -4px;
+    filter: blur(20px);
+    background: radial-gradient(50% 50% at center,hsl(var(--hue) 80% 85%),hsl(var(--hue) 80% 70%),transparent);
+} */
+
+.TopBox{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px  solid white;
+    transition: all 0.4s;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.TopBox:hover{
+    scale: 1.03;
+    border: none;
+}
+
+.main-text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height:209px;
+    padding: 20px;
+    font-family:fantasy;
+    background-color: rgb(255, 255, 255);
+}
+.Move{
+    padding: 10px;
+   gap: 10px;
+    display: flex;
+}
+
+
+.details-button {
+    background-color: #00b386;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 130px;
+    transition: background-color 0.3s ease;
+    border: 2px  solid  white;
+}
+.Butt{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    transition: all 0.5s;
+    scale: 0.9;
+    font-size: larger;
+    font-family: fantasy;
+    margin: 5px;
+}
+.Butt:hover{
+    transition: all 0.5s;
+    scale:1;
+}
+
+.details-button:hover {
+    background-color: #008060;
+}
+.Content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mid{
+    margin-top: 130px;
+    /* display: flex; */
+}
+.img{
+    margin-top: 50px;
+    text-align: center;
+    background-color:rgba(252, 198, 132, 0);
+    padding: 30px;
+    border-radius: 15px;
+    height: fit-content;
+    transition: all 0.4s;
+    transform: scale(0.99);
+}
+.img:hover{
+    transform: scale(1);
+    box-shadow: -10px 10px 12px black;
+    transition: all 0.4s;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+@media (max-width: 992px) {
+    .nav-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo h1 {
+        font-size: 28px;
+    }
+
+    .social-icons .icon {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .nav-links a {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    .search-box button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .main-text h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-content {
+        align-items: center;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+    }
+
+    .social-icons {
+        margin-top: 15px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .search-box {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .search-icon {
+        margin-bottom: 10px;
+    }
+
+    .search-box button {
+        padding: 8px 12px;
+    }
+
+    .main-text h2 {
+        font-size: 22px;
+    }
+
+    .details-button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .social-icons .icon {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .search-box button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .main-text h2 {
+        font-size: 20px;
+    }
+
+    .details-button {
+        padding: 6px 12px;
+    }
+}
+}

@@ -1,0 +1,50 @@
+.featured-brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 40px;
+    height: 209px;
+    gap: 25px;
+}
+
+.text-muted {
+    color: #1d1d1d;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.divider {
+    width: 2px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.brand .sub-text {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.brand .icon {
+    font-size: 30px;
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.brand:hover {
+    color: #000;
+    transition: transform 0.3s ease;
+}
